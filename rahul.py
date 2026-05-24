@@ -16,7 +16,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 app.layout = html.Div(style={'fontFamily': 'Times New Roman', 'padding': '20px', 'background': '#000000'}, children=[
-    html.H1("🚗 Automobile Data Dashboard 📊", style={'textAlign': 'center', 'color': '#DAA520'}),
+    html.H1("Automobile Data Dashboard", style={'textAlign': 'center', 'color': '#DAA520'}),
     html.Div(style={'display': 'flex'}, children=[
         html.Div(style={'width': '20%', 'padding': '10px', 'color': '#FFFFFF', 'background': '#1e1e1e', 'borderRadius': '10px', 'marginRight': '20px'}, children=[
             html.H3("Insights", style={'color': '#87CEEB'}),
